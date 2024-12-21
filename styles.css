@@ -6,6 +6,7 @@
 
 body {
     background-color: #edd6c1;
+    overflow-x: hidden;
 }
 
 
@@ -71,8 +72,4 @@ img {
     background-color: #020122;
     padding: 1rem;
     border-radius: 1rem;
-}
-
-#foto4 {
-    fit
 }
