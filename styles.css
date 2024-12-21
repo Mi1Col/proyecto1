@@ -67,6 +67,7 @@ main .recuerdos div {
 .container3 {
     grid-column: 2/3;
     margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 
