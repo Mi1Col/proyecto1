@@ -6,7 +6,6 @@
 
 body {
     background-color: #edd6c1;
-    overflow-x: hidden;
 }
 
 
@@ -51,7 +50,7 @@ main .recuerdos {
     grid-gap: 0.5rem;
     grid-template-columns: repeat(2, 1fr);
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 main .recuerdos div {
@@ -83,14 +82,15 @@ img {
 }
 
 .recuerdos p {
-    color: #f0f060;
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.45);
-    padding: 1rem;
-    border-radius: 0.5rem;
+    color: #f6f690;
+    position: relative;
+    bottom: -5%;
+    left: -90%;
+    width: 0;
+    font-weight: 900;
+    font-size: 0.9rem;
+    font-style: italic;
+    text-shadow: 0 0 10px #020122;
 }
 
 .recuerdos .underline {
