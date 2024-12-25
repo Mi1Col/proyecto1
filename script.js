@@ -26,19 +26,19 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     // Diccionario con posibles palabras para reescribir el texto
     diccionario = [
-        "niñaaa",
-        "amoooor",
-        "vida",
-        "corazón",
-        "mundo",
-        "luz",
-        "sol",
-        "TODO",
-        "felicidad",
-        "universo",
-        "cielo",
-        "estrella",
-        "paz",
+        "niñaaa!",
+        "amoooor!",
+        "vida!",
+        "corazón!",
+        "mundo!",
+        "luz!",
+        "sol!",
+        "TODO!",
+        "alegria!",
+        "universo!",
+        "cielo!",
+        "estrella!",
+        "paz!",
     ];
 
     // Selecciona el span con id "rewrite"
