@@ -41,16 +41,17 @@ body {
 }
 
 header h1 {
-    padding: 2.5rem 0;
+    padding: 2.5rem 0 0 0;
 }
 
 header {
-    background-color: #020122;
+    background: linear-gradient(#020122 5%, #ddb886 95%);
     color: #ddb886;
     text-align: center;
     margin: 0;
     border: 0;
     font-size: 1.3rem;
+    padding: 0 0 2.5rem 0;
 }
 
 header p {
@@ -84,13 +85,14 @@ main .recuerdos {
     grid-template-columns: repeat(2, 1fr);
     max-width: 100%;
     overflow: hidden;
+    padding: 1rem 0;
 }
 
 main .recuerdos div {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 0.2em;
+    margin: 0.2em auto;
 }
 
 .container1 {
@@ -117,7 +119,7 @@ img {
     width: 90%;
     background-color: #ae916b;
     padding: 10px;
-
+    box-shadow: 0 0 1rem #020122;
 }
 
 #foto1 {
@@ -279,6 +281,8 @@ footer p {
 }
 
 #p3 {
-    transform: translateX(130%) skewX(-20deg);
+    transform: skewX(-20deg);
+    grid-column: 2/3;
+    text-align: right;
 }
 
