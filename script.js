@@ -66,6 +66,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Cambia el texto continuamente cada 3 segundos
     setInterval(cambiarTexto, 3000);
+
+    // El juego.
+    const p3 = document.getElementById("p3");
+    Math.random() < 0.01 ? p3.textContent = "EL JUEGO" : null;
 });
+
+
 
 
