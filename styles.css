@@ -78,7 +78,7 @@ main h3 {
     text-align: center;
     padding: 1.5rem 0;
     margin: auto 1rem;
-    text-shadow: 5px 5px #00000055;
+    text-shadow: 5px 5px 3px #00000055;
 }
 
 main .recuerdos {
