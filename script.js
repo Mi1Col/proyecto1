@@ -1,3 +1,4 @@
+const fecha = new Date(2024, 10, 15); // Año, mes, día, hora, minuto, segundo, milisegundo
 // Animación slide-right/left
 document.addEventListener("DOMContentLoaded", () => {
     const elementos = document.querySelectorAll(".textos div");
@@ -70,8 +71,17 @@ document.addEventListener("DOMContentLoaded", () => {
     // El juego.
     const p3 = document.getElementById("p3");
     Math.random() < 0.01 ? p3.textContent = "EL JUEGO" : null; // Hay 1% de probabilidad de que aparezca "EL JUEGO" en lugar de "-Tu cosita preciosa".
+
+    const actualizarContador = () => {
+        const tiempoTranscurrido = Date.now() - fecha;
+        const dias = Math.floor(tiempoTranscurrido / (1000 * 60 * 60 * 24));
+        const horas = Math.floor((tiempoTranscurrido % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutos = Math.floor((tiempoTranscurrido % (1000 * 60 * 60)) / (1000 * 60));
+        const segundos = Math.floor((tiempoTranscurrido % (1000 * 60)) / 1000);
+        document.getElementById("contador").textContent = `${dias} dias, ${horas} horas, ${minutos} minutos, ${segundos} segundos`;
+    };
+
+    actualizarContador(); // Actualiza inmediatamente al cargar la página
+    setInterval(actualizarContador, 1000); // Actualiza cada segundo
+
 });
-
-
-
-
