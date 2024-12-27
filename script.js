@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // El juego.
     const p3 = document.getElementById("p3");
-    Math.random() < 0.01 ? p3.textContent = "EL JUEGO" : null;
+    Math.random() < 0.01 ? p3.textContent = "EL JUEGO" : null; // Hay 1% de probabilidad de que aparezca "EL JUEGO" en lugar de "-Tu cosita preciosa".
 });
 
 
