@@ -63,8 +63,7 @@ header p {
 #abajo {
     display: block;
 }
-
-header #amor {
+#amor {
     color: #ff6c64;
     font-size: 120%;
 }
@@ -235,7 +234,7 @@ li {
     font-size: 0.9em;
     font-weight: 900;
     font-style: italic;
-    text-shadow: 0 0 10px #f0f060;
+    text-shadow: 0 0 5px #f0f06088;
     margin: 1em;
     color: #fff;
 }
@@ -248,7 +247,7 @@ ul {
     font-size: 0.9em;
     font-weight: 900;
     font-style: italic;
-    text-shadow: 0 0 10px #f0f060;
+    text-shadow: 0 0 10px #f0f06088;
     margin: 1em;
     color: #fff;
 }
